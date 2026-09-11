@@ -1,40 +1,35 @@
-
-name1 = 'Ritu'
-name2 = "Ragini"
-name3 = '''Yasmin'''
-
-print(name1)
-print(name2)
-print(name3)
-
-age = 23
-old = False
-a = None 
-print(type(old))
-print(type(a))
-
-age = 20
-old = True
-a = None
-print(type(old))
-print(type(a))
-
-# Relational Operators
-a = 50
+ #relational operators
+a = 18
 b = 20
+print (a >= b)
+print(a <= b)
 
-print(a==b)
+#assignment operators
+num = 10
+num  = num + 10
+print(num)
 
-#Relational Operators
-a = 20
-b = 10
+num = 10
+num -= 20
+print("num:", num)
 
-print(a != b)
+num = 30
+num += 20
+print("num:", num)
 
-#Relational Operators
+num = 29
+num *= 2
+print("num:",num)
 
-a = 30
-b = 30
+num = 20 
+num /= 2
+print("num:", num)
 
-print(a==b)
-print(a != b)
+num = 20
+num %= 2
+print("num:", num)
+
+num = 20
+num **= 2
+print("num:", num)
+
