@@ -1,35 +1,36 @@
- #relational operators
-a = 18
-b = 20
-print (a >= b)
-print(a <= b)
-
 #assignment operators
 num = 10
-num  = num + 10
-print(num)
-
-num = 10
-num -= 20
-print("num:", num)
-
-num = 30
-num += 20
-print("num:", num)
-
-num = 29
-num *= 2
+num *= 5
 print("num:",num)
 
-num = 20 
+#assignment operators
+num = 30 
+num **= 23
+print("num:",num)
+
+num  = 14
 num /= 2
-print("num:", num)
+print("num:" ,num)
 
-num = 20
-num %= 2
-print("num:", num)
+num = 100
+num += 2
+print ("num:" ,num)
 
-num = 20
-num **= 2
-print("num:", num)
+#Logical Operators
+a = 30
+b = 44
+print(not False)
+print(not(a>b))
+
+# Logical Operators
+a = 30
+b = 30
+print(not True)
+print(not(a>b))
+
+a = 20
+b = 22
+print(not True)
+print(not(a<b))
+
 

@@ -1,9 +1,13 @@
 #include <stdio.h>
-int main()
+// this  code displays how data types work in C
+int main() 
 {
-    
-    char star ='*';
-    printf("star is %c\n",star);
+    int age = 22;
+    printf("age is %d", age);
+
      return 0;
 }
+
+
+
 
