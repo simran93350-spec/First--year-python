@@ -1,36 +1,34 @@
-#assignment operators
-num = 10
-num *= 5
-print("num:",num)
-
-#assignment operators
-num = 30 
-num **= 23
-print("num:",num)
-
-num  = 14
-num /= 2
-print("num:" ,num)
-
-num = 100
-num += 2
-print ("num:" ,num)
-
-#Logical Operators
-a = 30
-b = 44
+#logical operators
+a = 50
+b = 20
 print(not False)
 print(not(a>b))
 
-# Logical Operators
-a = 30
-b = 30
+a = 0
+b = 1
 print(not True)
 print(not(a>b))
 
-a = 20
-b = 22
-print(not True)
-print(not(a<b))
+val1 = True
+val2 = True
+print("and operator:", val1 and val2)
 
+val1 = False
+val2 = True
+print("and operator:", val1 and val2 )
 
+val1 = True
+val2 = False
+print("and operator:", val1 and val2)
+
+val1 = True
+val2 = True
+print("or operator:", val1 or val2)
+
+val1 = False
+val2 = True
+print("or operator:", val1 or val2)
+
+val1 = False
+val2 = False
+print("or operator:", val1 or val2) 
