@@ -1,34 +1,13 @@
-#logical operators
-a = 50
-b = 20
-print(not False)
-print(not(a>b))
+#type conversion
+a = 20
+b = 4.25
 
-a = 0
-b = 1
-print(not True)
-print(not(a>b))
+sum = a+b
+print(sum)
 
-val1 = True
-val2 = True
-print("and operator:", val1 and val2)
+# type operators
+a = 2
+b = 4.25
 
-val1 = False
-val2 = True
-print("and operator:", val1 and val2 )
-
-val1 = True
-val2 = False
-print("and operator:", val1 and val2)
-
-val1 = True
-val2 = True
-print("or operator:", val1 or val2)
-
-val1 = False
-val2 = True
-print("or operator:", val1 or val2)
-
-val1 = False
-val2 = False
-print("or operator:", val1 or val2) 
+sum = a + b
+print(sum)
