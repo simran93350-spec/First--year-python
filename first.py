@@ -10,9 +10,5 @@ age  = 44
 print("My name is:", name)
 print("my age is:",age)
 
-name = "Ram Singh"
-age = 50
-age2 = age
 
-print( age2)
 
