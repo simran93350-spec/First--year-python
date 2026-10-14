@@ -1,4 +1,4 @@
-name = "Simran Singh" 
+sssname = "Simran Singh" 
 age = 19
 
 print("My name is :", name)
